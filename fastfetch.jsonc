@@ -12,12 +12,12 @@
     "break",
     {
     "type": "os",
-    "key": " DISTRO",
+    "key": " DISTRO",
     "keyColor": "yellow"
     },
     {
     "type": "kernel",
-    "key": "│ ├",
+    "key": "│ ├",
     "keyColor": "yellow"
     },
     {
@@ -27,18 +27,19 @@
     },
     {
     "type": "command",
-    "key": "│ ├",
+    "key": "│ ├",
     "keyColor": "yellow",
     "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
     },
     {
     "type": "shell",
-    "key": "│ └",
+    "key": "│ └",
     "keyColor": "yellow"
     },
+
     {
     "type": "wm",
-    "key": " DE/WM",
+    "key": " DE/WM",
     "keyColor": "blue"
     },
     {
@@ -52,18 +53,18 @@
     "keyColor": "blue"
     },
     {
-    "type": "cursor",
-    "key": "│ ├",
-    "keyColor": "blue"
+        "type": "cursor",
+        "key": "│ ├",
+        "keyColor": "blue",
     },
     {
-    "type": "font",
-    "key": "│ ├",
-    "keyColor": "blue"
+        "type": "font",
+        "key": "│ ├",
+        "keyColor": "blue",
     },
     {
     "type": "terminal",
-    "key": "│ └",
+    "key": "│ └",
     "keyColor": "blue"
     },
     {
@@ -102,16 +103,22 @@
     "type": "disk",
     "key": "│ ├󰋊",
     "keyColor": "green",
-    "folders": "/:/home:/efi"
+    "folders": "/"
+    },
+    {
+    "type": "disk",
+    "key": "│ ├󰋊",
+    "keyColor": "green",
+    "folders": "/home"
     },
     {
     "type": "uptime",
-    "key": "│ └󰅐",
+    "key": "│ ├󰅐",
     "keyColor": "green"
     },
     {
     "type": "sound",
-    "key": " AUDIO",
+    "key": " AUDIO",
     "format": "{2}",
     "keyColor": "magenta"
     },
@@ -127,8 +134,8 @@
     },
     {
     "type": "custom",
-    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
+    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
     },
-    "break"
+    "break",
     ]
 }
